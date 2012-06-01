@@ -1,0 +1,9 @@
+= MemoryLogger
+
+Memory Logger for Ruby projects
+
+== Usage
+
+To turn on debug add (only once) mem_debug=on to any URL
+
+To turn off debug add (only once) mem_debug=off to any URL
