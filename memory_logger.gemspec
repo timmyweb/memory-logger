@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = MemoryLogger::VERSION
   s.authors     = ["Piotr Marat, Alek Niemczyk"]
   s.email       = ["info@314t.com"]
-  s.homepage    = "www.314t.com"
+  s.homepage    = "https://github.com/timmyweb/memory-logger"
   s.summary     = "Memory Logger"
-  s.description = "MemoryLogger"
+  s.description = "Memory logger for Ruby on Rails projects"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
