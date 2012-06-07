@@ -1,6 +1,14 @@
 = MemoryLogger
 
-Memory Logger for Ruby projects
+Memory Logger for Ruby projects. Plugin provides memory usage information in application log file.
+
+Log line
+
+  Completed 200 OK in 28ms (Views: 10.2ms | ActiveRecord: 0.8ms)
+
+turns into
+
+  Completed 200 OK in 76ms (Views: 10.2ms | Memory usage: 45620kB | ActiveRecord: 0.8ms)
 
 == Usage
 
